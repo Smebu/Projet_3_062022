@@ -9,7 +9,9 @@
 img {
   font-family: Shrikhand, sans-serif;
 }
-p {
+p,
+h1,
+h2 {
   font-family: Roboto, sans-serif;
 }
 
@@ -21,8 +23,6 @@ p {
   height: auto;
   padding-top: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid transparent;
-  box-shadow: 0px 0px 3px 1px #8080807a;
 }
 .logo_img {
   font-family: Shrikhand, sans-serif;
@@ -37,8 +37,134 @@ p {
   justify-content: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  background-color: rgb(238, 238, 238);
+  border-top: 0px solid rgb(182, 182, 182);
+  box-shadow: 1px 3px 1px 3px rgb(34, 34, 34);
 }
 .location_text {
   padding: 0 15px;
-  font-weight: 500;
+  font-weight: normal;
+}
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  padding: 40px 20px;
+}
+.presentation_title {
+  font-size: 12px;
+  padding: 0px 30px;
+  text-align: center;
+}
+.presentation_p {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+.presentation_button {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.presentation_button #explorer {
+  background: linear-gradient(#ff79da, #9356dc);
+  color: white;
+  border: 0px solid;
+  border-radius: 30px;
+  font-size: medium;
+  padding: 15px 20px;
+  transition: all 1s;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px 3px rgb(233, 233, 233);
+}
+.presentation_button #explorer:hover {
+  background: linear-gradient(#ff79d9c4, #9256dcbd);
+  box-shadow: 1px 1px 3px 3px gray;
+}
+
+/* Second Section */
+.fonction {
+  padding: 50px 20px;
+}
+.fonction p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #9356dc;
+  background-color: #9356dc;
+  border-radius: 20px;
+  width: 22px;
+  height: 23px;
+  padding: 2px 10px;
+  margin: 0px 15px 0px -28px;
+  font-size: 15px;
+  color: white;
+}
+.fonction_title {
+  font-size: medium;
+  padding-bottom: 10px;
+}
+.icon {
+  margin: 0 25px 0 5px;
+  color: gray;
+}
+.fonction_text {
+  font-size: medium;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+.first_fonction {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  border: 0px solid;
+  border-radius: 30px;
+  box-shadow: 0px 1px 5px 0px rgb(204, 204, 204);
+  font-size: medium;
+  padding: 30px 20px 25px 20px;
+  transition: all 1s;
+  margin: 15px 10px;
+}
+.first_fonction:hover i {
+  color: #9356dc;
+}
+.first_fonction:hover {
+  background-color: #ebdaff;
+  transition: all 1s;
+}
+.second_fonction {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  border: 0px solid;
+  border-radius: 30px;
+  box-shadow: 0px 1px 5px 0px rgb(204, 204, 204);
+  font-size: medium;
+  padding: 30px 20px 25px 20px;
+  transition: all 1s;
+  margin: 15px 10px;
+}
+.second_fonction:hover i {
+  color: #9356dc;
+}
+.second_fonction:hover {
+  background-color: #ebdaff;
+  transition: all 1s;
+}
+.third_fonction {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  border: 0px solid;
+  border-radius: 30px;
+  box-shadow: 0px 1px 5px 0px rgb(204, 204, 204);
+  font-size: medium;
+  padding: 30px 20px 25px 20px;
+  transition: all 1s;
+  margin: 15px 10px;
+}
+.third_fonction:hover i {
+  color: #9356dc;
+}
+.third_fonction:hover {
+  background-color: #ebdaff;
+  transition: all 1s;
 }
