@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+      type="text/css"
     />
     <title>ohmyfood</title>
   </head>
 
   <body>
+    <!-- Loading Spinner -->
+    <div class="spinner"></div>
+
     <header>
       <!-- Logo ohmyfood Header -->
       <div class="header_logo">
@@ -31,7 +35,7 @@
 
     <main>
       <!-- First Section location and presentation -->
-      <div class="first_section">
+      <section class="first_section">
         <div class="location">
           <div class="location_icon">
             <i class="fa-solid fa-location-dot"></i>
@@ -55,29 +59,155 @@
             </button>
           </div>
         </div>
-      </div>
-      <div class="second_section">
+      </section>
+      <section class="second_section">
         <div class="fonction">
           <div class="fonction_title">
             <h2>Fonctionnement</h2>
           </div>
-          <div class="first_fonction">
-            <p>1</p>
-            <i class="fa-solid fa-mobile-screen-button icon"></i>
-            <div class="fonction_text">Choisissez un restaurant</div>
-          </div>
-          <div class="second_fonction">
-            <p>2</p>
-            <i class="fa-solid fa-list-ul icon"></i>
-            <div class="fonction_text">Composez votre menu</div>
-          </div>
-          <div class="third_fonction">
-            <p>3</p>
-            <i class="fa-solid fa-store icon"></i>
-            <div class="fonction_text">Dégustez au restaurant</div>
+          <div class="flex_laptop">
+            <div class="first_fonction">
+              <p>1</p>
+              <i class="fa-solid fa-mobile-screen-button icon"></i>
+              <div class="fonction_text">Choisissez un restaurant</div>
+            </div>
+            <div class="second_fonction">
+              <p>2</p>
+              <i class="fa-solid fa-list-ul icon"></i>
+              <div class="fonction_text">Composez votre menu</div>
+            </div>
+            <div class="third_fonction">
+              <p>3</p>
+              <i class="fa-solid fa-store icon"></i>
+              <div class="fonction_text">Dégustez au restaurant</div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="third_section">
+        <div class="restaurant_title">
+          <h2>Restaurants</h2>
+        </div>
+        <div class="menus_third">
+          <div class="flex_one">
+            <div class="palette card">
+              <a href="menus/firstmenu.html" title="1_card">
+                <div class="card_img">
+                  <img
+                    src="/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                    alt="palette_du_gout"
+                  />
+                  <div class="card_new">Nouveau</div>
+                </div>
+                <div class="card_flex">
+                  <div class="card_text">
+                    <h3>La palette du goût</h3>
+                    <p>Ménilmontant</p>
+                  </div>
+                  <div class="card_heart">
+                    <i class="fa-regular fa-heart far"></i>
+                    <i class="fa-solid fa-heart fas"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="enchantee card">
+              <a href="menus/secondmenu.html" title="2_card">
+                <div class="card_img">
+                  <img
+                    src="/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                    alt="note_enchantee"
+                  />
+                  <div class="card_new">Nouveau</div>
+                </div>
+                <div class="card_flex">
+                  <div class="card_text">
+                    <h3>La note enchantée</h3>
+                    <p>Charonne</p>
+                  </div>
+                  <div class="card_heart">
+                    <i class="fa-regular fa-heart far"></i>
+                    <i class="fa-solid fa-heart fas"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="flex_two">
+            <div class="francaise card">
+              <a href="menus/third.menu.html" title="3_card">
+                <div class="card_img">
+                  <img
+                    src="/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                    alt="a_la_francaise"
+                  />
+                </div>
+                <div class="card_flex">
+                  <div class="card_text">
+                    <h3>À la française</h3>
+                    <p>Cité Rouge</p>
+                  </div>
+                  <div class="card_heart">
+                    <i class="fa-regular fa-heart far"></i>
+                    <i class="fa-solid fa-heart fas"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="delice card">
+              <a href="menus/fourthmenu.html" title="4_card">
+                <div class="card_img">
+                  <img
+                    src="/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                    alt="delice_des_sens"
+                  />
+                </div>
+                <div class="card_flex">
+                  <div class="card_text">
+                    <h3>Le délice des sens</h3>
+                    <p>Folie-Méricourt</p>
+                  </div>
+                  <div class="card_heart">
+                    <i class="fa-regular fa-heart far"></i>
+                    <i class="fa-solid fa-heart fas"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="logo_f">
+          <a href="#" title="logo">
+            <img src="/images/logo/ohmyfood.png" alt="logo_ohmyfood" />
+          </a>
+        </div>
+        <div class="flex_f">
+          <div class="proposer_r">
+            <a href="#" title="propose">
+              <i class="fa-solid fa-utensils"></i>
+              <h4>Proposer un restaurant</h4>
+            </a>
+          </div>
+          <div class="devenir_p">
+            <a href="#" title="devenir">
+              <i class="fa-solid fa-handshake-angle"></i>
+              <h4>Devenir partenaire</h4>
+            </a>
+          </div>
+          <div class="mentions_l">
+            <a href="#" title="mention">
+              <h4>Mentions légales</h4>
+            </a>
+          </div>
+          <div class="contact">
+            <a href="#" title="contacts">
+              <h4>Contact</h4>
+            </a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

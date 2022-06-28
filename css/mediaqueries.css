@@ -1,0 +1,28 @@
+@media all and (min-width: 900px) {
+  .flex_laptop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex_one {
+    display: flex;
+  }
+  .palette {
+    margin-right: 20px;
+  }
+  .flex_two {
+    display: flex;
+  }
+  .francaise {
+    margin-right: 20px;
+  }
+  .logo_f {
+    display: flex;
+    justify-content: center;
+  }
+  .flex_f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}

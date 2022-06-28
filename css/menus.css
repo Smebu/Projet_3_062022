@@ -1,0 +1,100 @@
+/* Menus Header*/
+.header {
+  display: flex;
+}
+.retour {
+  font-size: larger;
+  padding: 25px 0px 25px 20px;
+}
+
+/* Main Image */
+.img_main img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+/* Main Menus */
+.menus {
+  background-color: #f2f2f2;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  position: relative;
+  width: 100%;
+  margin-top: -50px;
+  padding-top: 20px;
+}
+.flex_title {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 25px 15px 15px;
+}
+.title_main {
+  font-family: Shrikhand, sans-serif;
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+.epd {
+  padding: 20px 20px;
+  font-family: Roboto, sans-serif;
+}
+.card_menu {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid rgba(248, 247, 247, 0.74);
+  background-color: white;
+  box-shadow: 2px 2px 10px 0.5px #e4e4e4;
+  transition: 0.5s;
+  border-radius: 20px;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  position: relative;
+}
+.title_menu {
+  font-size: 21px;
+  padding-top: 2px;
+}
+.first_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.name_menus {
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-top: 7px;
+}
+.price_menus {
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.menus_title {
+  border-bottom: 3px solid;
+  padding-bottom: 5px;
+  border-color: #99e2d0;
+  width: fit-content;
+}
+.first_card {
+  margin-top: 20px;
+}
+.hover_check {
+  display: none;
+  position: absolute;
+  background: #99e2d0;
+  right: 0px;
+  width: 60px;
+  height: 70px;
+  margin: -33px 0;
+  color: #fff;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: 0.5s ease;
+}
+.hover_check i {
+  font-size: 21px;
+}
