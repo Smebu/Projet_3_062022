@@ -74,10 +74,9 @@
   padding-left: 20px;
 }
 .menus_title {
-  border-bottom: 3px solid;
+  border-bottom: 3px solid #99e2d0;
   padding-bottom: 5px;
-  border-color: #99e2d0;
-  width: fit-content;
+  width: 38px;
 }
 .first_card {
   margin-top: 20px;
