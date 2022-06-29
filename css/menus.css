@@ -52,10 +52,14 @@
   margin-bottom: 15px;
   padding: 10px 10px;
   position: relative;
+  overflow: hidden;
 }
-.title_menu {
-  font-size: 21px;
+.title_menu h5 {
+  font-size: 18px;
   padding-top: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .first_flex {
   display: flex;
@@ -80,19 +84,6 @@
 }
 .first_card {
   margin-top: 20px;
-}
-.hover_check {
-  display: none;
-  position: absolute;
-  background: #99e2d0;
-  right: 0px;
-  width: 60px;
-  height: 70px;
-  margin: -33px 0;
-  color: #fff;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-  transition: 0.5s ease;
 }
 .hover_check i {
   font-size: 21px;
