@@ -82,6 +82,9 @@
   padding-bottom: 5px;
   width: 38px;
 }
+.menus_title h4 {
+  font-weight: 100;
+}
 .first_card {
   margin-top: 20px;
 }
